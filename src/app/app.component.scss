@@ -1,0 +1,40 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.screen {
+  position: relative;
+  width: 70%;
+  height: 100%;
+  background-color: rgb(3, 35, 66);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.tiles {
+  width: 30%;
+  background-color: rgb(59, 70, 81);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.tile {
+  width: fit-content;
+  padding: 7px;
+  border-radius: 8px;
+  color: rgb(225, 202, 143);
+  background-color: grey;
+  cursor: grab;
+  font-size: 1.5rem;
+}
+.image {
+  width: 100%;
+  height: 12rem;
+  object-fit: contain;
+}
